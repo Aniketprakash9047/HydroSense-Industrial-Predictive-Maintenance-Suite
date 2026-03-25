@@ -1,0 +1,82 @@
+{
+  "Cooler": {
+    "accuracy": 0.9868421052631579,
+    "f1_weighted": 0.9868370445344129,
+    "best_params": {
+      "n_estimators": 361,
+      "learning_rate": 0.027868083351667197,
+      "max_depth": 12,
+      "num_leaves": 127,
+      "min_child_samples": 23,
+      "subsample": 0.7012914166808301,
+      "colsample_bytree": 0.5008439749545285,
+      "reg_alpha": 0.013334377918007073,
+      "reg_lambda": 5.123175874736609,
+      "random_state": 42,
+      "verbose": -1,
+      "n_jobs": -1
+    }
+  },
+  "Valve": {
+    "accuracy": 1.0,
+    "f1_weighted": 1.0,
+    "best_params": {
+      "n_estimators": 705,
+      "learning_rate": 0.10840842166508706,
+      "max_depth": 3,
+      "num_leaves": 23,
+      "min_child_samples": 31,
+      "subsample": 0.5612595835598451,
+      "colsample_bytree": 0.6439497552994123,
+      "reg_alpha": 0.00011337433378526533,
+      "reg_lambda": 0.0012378278317981093,
+      "random_state": 42,
+      "verbose": -1,
+      "n_jobs": -1
+    }
+  },
+  "Pump": {
+    "accuracy": 1.0,
+    "f1_weighted": 1.0,
+    "best_params": {
+      "n_estimators": 479,
+      "learning_rate": 0.036914249473898014,
+      "max_depth": 9,
+      "num_leaves": 182,
+      "min_child_samples": 6,
+      "subsample": 0.7319481163574009,
+      "colsample_bytree": 0.7349715934201935,
+      "reg_alpha": 0.00713841559934316,
+      "reg_lambda": 0.34852582050046443,
+      "random_state": 42,
+      "verbose": -1,
+      "n_jobs": -1
+    }
+  },
+  "Accumulator": {
+    "accuracy": 0.9605263157894737,
+    "f1_weighted": 0.9613042995679466,
+    "best_params": {
+      "n_estimators": 753,
+      "learning_rate": 0.04255491758086142,
+      "max_depth": 3,
+      "num_leaves": 63,
+      "min_child_samples": 7,
+      "subsample": 0.576706275645235,
+      "colsample_bytree": 0.7782871981871919,
+      "reg_alpha": 0.0001773917167899855,
+      "reg_lambda": 0.0004599059760495569,
+      "random_state": 42,
+      "verbose": -1,
+      "n_jobs": -1
+    }
+  },
+  "meta": {
+    "timestamp": "2026-03-25T14:33:18.658062",
+    "n_train_cycles": 604,
+    "n_test_cycles": 152,
+    "n_features": 383,
+    "model_type": "LightGBM",
+    "version": "1.0.0"
+  }
+}
